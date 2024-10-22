@@ -1,0 +1,113 @@
+/* General Reset */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f4f1; /* Beige background */
+    padding: 0;
+    margin: 0;
+    transition: background-color 0.3s ease;
+}
+
+/* Header Style */
+header {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to bottom, rgba(255, 153, 51, 0.8), rgba(255, 255, 255, 0.3)), /* Fading orange to white */
+                linear-gradient(to right, rgba(255, 153, 51, 0.8), rgba(255, 255, 255, 0.3) 20%, rgba(19, 136, 8, 0.8) 50%, rgba(19, 136, 8, 1) 100%); /* Strong green */
+    transition: background-color 0.3s ease;
+}
+
+/* Emblem Image Style */
+.constitution-image {
+    width: 300px; /* Adjust size as needed */
+    height: auto;
+    border: 3px solid #333;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.constitution-image:hover {
+    transform: scale(1.05);
+}
+
+/* Main Content Style */
+main {
+    padding: 20px;
+}
+
+/* Box Container */
+.boxes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Box Style */
+.box {
+    display: block; /* Ensure the boxes are treated as block elements for full width clickability */
+    background-color: #d0bfae; /* Beige */
+    border: 1px solid #a67d3c; /* Brown */
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px; /* Fixed width for the boxes */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color from parent */
+}
+
+.box:hover {
+    background-color: #c8a98e; /* Slightly darker beige */
+    transform: translateY(-5px);
+}
+
+/* Queries Box */
+.queries-box {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0f7fa; /* Light cyan background */
+    border: 1px solid #4db6ac; /* Slightly darker cyan border */
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.queries-box:hover {
+    background-color: #b2ebf2; /* Slightly darker cyan */
+    transform: translateY(-5px);
+}
+
+.queries-box h3 {
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.queries-box p {
+    font-weight: bold; /* Make the paragraph text bold */
+}
+
+/* Footer Style */
+footer {
+    background-color: #000088; /* Dark blue */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    transition: background-color 0.3s ease;
+}
+
+footer:hover {
+    background-color: #0000ff; /* Lighter blue */
+}

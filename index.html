@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sansthaein Aur Samvidhan</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function openGame(url) {
+            window.open(url, '_blank'); // Open the game in a new tab
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="https://imgs.search.brave.com/OQxQinU5-3z_5V0NOC9mjk02uxpnjon3DF-6dNM56ug/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2RlL2Y2/L2Y0L2RlZjZmNDE4/YTlmNjljZTZiOTMx/MWFjNDM5NjAwY2Y3/LmpwZw" alt="" class="emblem">
+            <h1>संस्थाएँ और संविधान</h1>
+            <h2>Sansthaein Aur Samvidhan</h2>
+            <br>
+            <p>Explore and Learn about the Constitution of India</p>
+        </div>
+    </header>
+    
+    <main>
+        <section class="intro">
+            <h2>About the Platform</h2>
+            <p>Welcome to Sansthaein Aur Samvidhan, an interactive platform designed to educate citizens about the Constitution of India through engaging games and activities.</p>
+        </section>
+        
+        <section class="games">
+            <h2>Our Games</h2>
+            <div class="game-card">
+                <h3>Constitutional Quiz</h3>
+                <p>Test your knowledge with our quiz game covering various constitutional topics.</p>
+                <button class="game-button" onclick="openGame('quiz.html')">Play Now</button> <!-- Button to open quiz -->
+            </div>
+            <div class="game-card">
+                <h3>Constitutional Tic-Tac-Toe</h3>
+                <p>Play Tic-Tac-Toe with a twist, learning about legislative processes as you go.</p>
+                <button class="game-button" onclick="openGame('xo.html')">Play Now</button> <!-- Button to open Tic-Tac-Toe -->
+            </div>
+            <!-- Add more game cards as needed -->
+        </section>
+
+        <!-- New Block Added -->
+        <section class="ai-assistant">
+            <a href="page.html" target="_blank" class="ai-link">
+                <h3>KNOW YOUR CONSTITUTION</h3>
+                <p>Learn it easily by provided interactive guidance and answering your questions.</p>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sansthaein Aur Samvidhan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

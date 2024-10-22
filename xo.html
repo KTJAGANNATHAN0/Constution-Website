@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XO Game - Sansthaein Aur Samvidhan</title>
+    <link rel="stylesheet" href="xo.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="https://imgs.search.brave.com/OQxQinU5-3z_5V0NOC9mjk02uxpnjon3DF-6dNM56ug/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2RlL2Y2/L2Y0L2RlZjZmNDE4/YTlmNjljZTZiOTMx/MWFjNDM5NjAwY2Y3/LmpwZw" alt="National Emblem" class="emblem">
+            <h1>संस्थाएँ और संविधान</h1>
+            <h2>Sansthaein Aur Samvidhan</h2>
+            <br>
+            <p>Explore and Learn about the Constitution of India</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>XO Game</h2>
+            <p>Welcome to the XO Game! Answer the question correctly to take your turn.</p>
+        </section>
+
+        <div class="game-container">
+            <div class="status" id="status">Player X's Turn</div>
+            <div class="question-container">
+                <div id="question"></div>
+                <div id="options"></div>
+            </div>
+            <div class="board" id="board">
+                <div class="cell" data-index="0"></div>
+                <div class="cell" data-index="1"></div>
+                <div class="cell" data-index="2"></div>
+                <div class="cell" data-index="3"></div>
+                <div class="cell" data-index="4"></div>
+                <div class="cell" data-index="5"></div>
+                <div class="cell" data-index="6"></div>
+                <div class="cell" data-index="7"></div>
+                <div class="cell" data-index="8"></div>
+            </div>
+            <button id="resetBtn">Reset Game</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sansthaein Aur Samvidhan. All rights reserved.</p>
+    </footer>
+
+    <script src="xo.js"></script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+/* General Reset */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f4f1; /* Beige background */
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Style */
+header {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to bottom, rgba(255, 153, 51, 0.8), rgba(255, 255, 255, 0.3)), /* Fading orange to white */
+                linear-gradient(to right, rgba(255, 153, 51, 0.8), rgba(255, 255, 255, 0.3) 20%, rgba(19, 136, 8, 0.8) 50%, rgba(19, 136, 8, 1) 100%); /* Strong green */
+    transition: background 0.5s ease; /* Smooth transition for background change */
+}
+
+.header-content {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay for contrast */
+    transition: background 0.5s ease; /* Smooth transition for background change */
+}
+
+.emblem {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    transition: transform 0.3s ease; /* Smooth transition for transform effects */
+}
+
+.emblem:hover {
+    transform: scale(1.1); /* Slightly enlarge the emblem on hover */
+}
+
+/* Main Content Style */
+main {
+    padding: 20px;
+}
+
+/* Intro Section Style */
+.intro {
+    text-align: center; /* Center-align the text within this section */
+    margin-bottom: 20px;
+}
+
+.intro h2 {
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.intro p {
+    font-weight: bold; /* Make the paragraph text bold */
+}
+
+/* Games Section */
+.games {
+    display: flex;
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Center the cards horizontally */
+    gap: 20px; /* Space between cards */
+    margin-bottom: 20px;
+}
+
+.game-card {
+    background-color: #d0bfae; /* Beige */
+    border: 1px solid #a67d3c; /* Brown */
+    border-radius: 8px;
+    padding: 15px;
+    width: 80%; /* Adjust width as needed */
+    max-width: 400px; /* Set a maximum width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align text within cards */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for background color and shadow */
+}
+
+.game-card:hover {
+    background-color: #c6a68f; /* Slightly darker beige on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+.game-card h3 {
+    margin-top: 0;
+}
+
+/* New AI Assistant Section */
+.ai-assistant {
+    text-align: center; /* Center-align text */
+    margin: 20px 0; /* Margin for spacing */
+    padding: 15px;
+    background-color: #e0f7fa; /* Light cyan background */
+    border: 1px solid #4db6ac; /* Slightly darker cyan border */
+    border-radius: 8px;
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition for background color and border color */
+}
+
+.ai-assistant:hover {
+    background-color: #b2ebf2; /* Slightly darker cyan on hover */
+    border-color: #00838f; /* Darker cyan border on hover */
+}
+
+.ai-assistant a {
+    text-decoration: none; /* Remove underline from the link */
+    color: inherit; /* Inherit text color from the parent */
+    display: block; /* Make the link block level so that entire section is clickable */
+    padding: 15px; /* Padding around the content */
+}
+
+.ai-assistant a:hover {
+    background-color: #b2ebf2; /* Slightly darker cyan on hover */
+    border-color: #00838f; /* Darker cyan border on hover */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.ai-assistant h3 {
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.ai-assistant p {
+    font-weight: bold; /* Make the paragraph text bold */
+}
+
+/* Footer Style */
+footer {
+    background-color: #000088; /* Dark blue */
+    color: white;
+    text-align: center;
+    padding: 20px; /* Increased padding for more space at the bottom */
+    width: 100%;
+    bottom: 0;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+footer .content {
+    margin-bottom: 20px; /* Space between sections in the footer */
+}
+
+footer .rights-reserved {
+    margin-bottom: 20px; /* Space below the "All Rights Reserved" section */
+}
+
+footer .know-constitution {
+    margin-top: 20px; /* Space above the "Know Your Constitution" section */
+}
+
+/* General Button Styles */
+.game-button {
+    padding: 15px 25px; /* Increased padding for better click area */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for better readability */
+    margin-top: 10px; /* Space above the button */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition effects */
+}
+
+.game-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight upward movement on hover */
+}
+
+.game-button:focus {
+    outline: none; /* Remove focus outline */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Add a focus ring */
+}

@@ -1,0 +1,163 @@
+/* General Styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f4f1; /* Beige background */
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Style */
+header {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to bottom, rgba(255, 153, 51, 0.8), rgba(255, 255, 255, 0.3)), 
+                linear-gradient(to right, rgba(255, 153, 51, 0.8), rgba(255, 255, 255, 0.3) 20%, rgba(19, 136, 8, 0.8) 50%, rgba(19, 136, 8, 1) 100%);
+    transition: background 0.5s ease;
+}
+
+.header-content {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    transition: background 0.5s ease;
+}
+
+/* Main Content Style */
+main {
+    padding: 20px;
+}
+
+/* Quiz Container */
+.quiz-container {
+    max-width: 600px; /* Limit the width of the quiz container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding around the container */
+    background-color: #ffffff; /* White background for the quiz */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Question Styles */
+#question {
+    margin-bottom: 20px; /* Space below the question */
+}
+
+/* Options Container */
+.options-container {
+    margin-bottom: 20px; /* Space below the options */
+}
+
+/* Option Styles */
+.option {
+    padding: 15px; /* Padding inside the buttons */
+    background-color: #d0bfae; /* Beige */
+    border: 1px solid #a67d3c; /* Brown */
+    border-radius: 8px; /* Rounded corners */
+    width: 100%; /* Full width */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-bottom: 10px; /* Space between options */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.option:hover {
+    background-color: #c6a68f; /* Darker beige on hover */
+}
+
+/* Highlighted Option */
+.option.locked {
+    background-color: green; /* Change color for selected option */
+    color: white; /* Text color for visibility */
+}
+
+.option.highlight {
+    background-color: lightgreen; /* Change color for correct option */
+    color: black; /* Text color for visibility */
+}
+
+/* Buttons */
+.next-button, .highlight-button {
+    padding: 10px 20px; /* Button padding */
+    background-color: #ffc107; /* Yellow */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 10px; /* Space above the button */
+}
+
+.next-button:hover, .highlight-button:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+}
+
+/* Result Container Styles */
+.result-container {
+    text-align: center; /* Center align text */
+}
+
+footer {
+    background-color: #000088; /* Dark blue */
+    color: white;
+    text-align: center;
+    padding: 20px; /* Increased padding for more space at the bottom */
+    width: 100%;
+    bottom: 0;
+}
+
+/* Result Container Styles */
+.result-container {
+    text-align: center; /* Center align text */
+}
+
+.result-title {
+    font-size: 2em; /* Larger font for the title */
+    margin-bottom: 20px; /* Space below the title */
+    color: #333; /* Darker color for contrast */
+}
+
+.result-summary {
+    margin-bottom: 20px; /* Space below the summary */
+}
+
+.result-text {
+    font-size: 1.2em; /* Larger font for result summary */
+    margin: 5px 0; /* Space between summary lines */
+}
+
+.your-results-title {
+    font-size: 1.5em; /* Size for the detailed results title */
+    margin: 20px 0; /* Space above and below the title */
+}
+
+.results-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+.result-item {
+    text-align: left; /* Align text to the left */
+    margin: 10px 0; /* Space between result items */
+    padding: 10px; /* Padding around each item */
+    border: 1px solid #ccc; /* Light border for item separation */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background for items */
+}
+
+.correct-answer {
+    color: green; /* Color for correct answers */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+.wrong-answer {
+    color: red; /* Color for wrong answers */
+    font-weight: bold; /* Bold text for emphasis */
+}
+

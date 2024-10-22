@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz on Constitution</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="quiz.css"> <!-- Add separate CSS for quiz -->
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Quiz on the Constitution</h1>
+            <p>Test your knowledge about the Constitution of India!</p>
+        </div>
+    </header>
+
+    <main>
+        <div id="quiz-container" class="quiz-container">
+            <h2 id="question"></h2>
+            <div id="options-container" class="options-container"></div>
+            <button id="highlight-button" class="highlight-button" onclick="highlightKey()">Highlight Key</button>
+            <button id="next-button" class="next-button" onclick="loadNextQuestion()">Next Question</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sansthaein Aur Samvidhan. All rights reserved.</p>
+    </footer>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
